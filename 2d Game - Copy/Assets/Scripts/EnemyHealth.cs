@@ -9,10 +9,16 @@ public class EnemyHealth : MonoBehaviour
     public GameObject hitEffect;
     public float Damage;
     public GameObject coin;
+    Rigidbody2D rb;
+
+    private void Start()
+    {
+        rb = this.gameObject.GetComponent<Rigidbody2D>();
+    }
 
     public void TakeDamage(int damage)
     {
-        this.gameObject.GetComponent<EnemyPatrol>().dazedTime = this.gameObject.GetComponent<EnemyPatrol>().startDazedTime; 
+        this.gameObject.GetComponent<EnemyPatrol>().dazedTime = this.gameObject.GetComponent<EnemyPatrol>().startDazedTime;
         health -= damage;
         Instantiate(hitEffect, this.transform);
     }

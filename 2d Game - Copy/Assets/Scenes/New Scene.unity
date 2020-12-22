@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttack: 0
-  StartTimeBetweenAttack: 0.3
+  StartTimeBetweenAttack: 1
   range: 1.2
   swordPos: {fileID: 911205060}
   enemy:
@@ -5127,7 +5127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5146528473384238083, guid: 59915ca179d6f364fa7909388525852b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.484426
+      value: -20.5
       objectReference: {fileID: 0}
     - target: {fileID: 5146528473384238083, guid: 59915ca179d6f364fa7909388525852b, type: 3}
       propertyPath: m_LocalPosition.z

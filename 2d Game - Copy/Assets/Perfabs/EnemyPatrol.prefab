@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5146528473384238081}
   - component: {fileID: 5146528473384238086}
   - component: {fileID: 5146528473384238087}
+  - component: {fileID: 7927639294883795542}
   m_Layer: 6
   m_Name: EnemyPatrol
   m_TagString: Untagged
@@ -136,6 +137,27 @@ MonoBehaviour:
   hitEffect: {fileID: 1137025393560328972, guid: 92a12bed2469d8d45bc9c13a4557a006, type: 3}
   Damage: 1
   coin: {fileID: 2203928738939964220, guid: 964ffec44b665634b8a3944e5595a6f1, type: 3}
+--- !u!50 &7927639294883795542
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5146528473384238084}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &5146528474907791112
 GameObject:
   m_ObjectHideFlags: 0
