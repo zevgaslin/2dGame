@@ -2539,7 +2539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911205059}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.17, z: -3.0948343}
+  m_LocalPosition: {x: 0.8, y: -0.17, z: -3.0948343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2100022442}
@@ -4197,7 +4197,7 @@ Transform:
   m_GameObject: {fileID: 1636682949}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0049991608, y: -1.02, z: -10.992418}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7625, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2100022442}
   m_RootOrder: 2
@@ -5287,7 +5287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBetweenAttack: 0
   StartTimeBetweenAttack: 1
-  range: 1
+  range: 1.5
   swordPos: {fileID: 911205060}
   enemy:
     serializedVersion: 2
