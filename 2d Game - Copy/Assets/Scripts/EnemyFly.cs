@@ -10,6 +10,8 @@ public class EnemyFly : MonoBehaviour
     public float dazedTime;
     GameObject target;
     Rigidbody2D rb;
+    public float distance;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -34,9 +36,13 @@ public class EnemyFly : MonoBehaviour
 
         Vector2 direction = new Vector2(target.transform.position.x - transform.position.x, target.transform.position.y - transform.position.y);
 
-        float angle = Mathf.Atan2(direction.y, direction.x) *Mathf.Rad2Deg - 90f;
+        float angle = Mathf.Atan2(direction.y, direction.x) *Mathf.Rad2Deg;
 
         rb.rotation = angle;
 
+        if(Vector2.Distance(this.gameObject.transform.position, target.gameObject.transform.position) < distance)
+        {
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+        }
     }
 }
